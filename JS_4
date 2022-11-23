@@ -1,1 +1,19 @@
 Padrões de projeto são modelos soluções com possibilidade de reutilização aplicadas a problemas recorrentes
+que surgiram a partir de observações feitas na área da arquitetura e posteriormente foram incorporados em 
+outras áreas, como o desenvolvimento de software.
+Os padrões de projeto podem ser aplicados a qualquer linguagem de programação, em Java Script existem diversos
+padrões aplicáveis, entre eles: Constructor pattern (construtor), Revealing module (revelação de módulo),
+module (de módulo), singleton, observer, mediator, prototype, command, facade, factory, entre outros.
+O "Decorator Pattern" ou Padrão decorador, se encaixa na categoria de padrões de projetos estruturais, que se 
+preocupam com composição de objetos e suas relações entre si, auxiliando na estabilidade do código, que não é 
+completamente alterado com alguma de suas partes muda.
+O decorator adiciona dinamicamente processamento alternativo para objetos, expandindo a funcionalidade de classes
+de forma dinâmica. O principal objetivo do padrão decorador é fazer componentes de linguagens orientadas a objetos
+mais flexíveis e fáceis de reutilizar, suas vantagens, portanto, estão na alta flexibilidade e melhora na performance.
+Porém seu uso aumenta a complexidade do software e adiciona uma grande quantidade de objetos decoradores, dificultando
+a identificação de erros. E ainda, o próprio java script é bastante efetivo em estender obejtos dinamicamente, tornando
+o padrão decorador dispensável.
+
+Fontes: https://github.com/fhferreira/aprendendo-padroes-de-projeto-javascript
+https://www.dofactory.com/javascript/design-patterns/decorator
+https://www.ionos.com/digitalguide/websites/web-development/what-is-the-decorator-pattern/
