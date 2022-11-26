@@ -1,4 +1,20 @@
- var n1 = document.querySelector ('#n1')
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    Primeiro Número<br />
+    <input id="n1" type="number" /><br />
+    Segundo Número<br />
+    <input id="n2" type="number" /><br /><br />
+    <button onclick="somar()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()"> Dividir</button>
+    <br /><br />
+    O resultado é <span></span>
+
+    <script>
+        var n1 = document.querySelector ('#n1')
         var n1 = document.querySelector ('#n2')
         var resultado = document.querySelector('span')
 
@@ -17,3 +33,7 @@
         function dividir () {
             resultado.innerHTML = parseInt(n1.value) / parseInt(n2.value)
         }
+    </script>
+
+</body>
+</html>
